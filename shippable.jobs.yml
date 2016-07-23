@@ -6,3 +6,10 @@ jobs:
       - IN: triggertest1
       - TASK:
         - script: IN/sample-script/sample-script/echo.sh
+  - name: script-somerandomcrap
+    type: runSh
+    steps:
+      - IN: sample-abc
+      - IN: triggertest1
+      - TASK:
+        - script: IN/sample-script/sample-script/echo.sh
