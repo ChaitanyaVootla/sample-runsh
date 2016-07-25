@@ -4,6 +4,6 @@ jobs:
     steps:
       - IN: sample-script
       - IN: triggertest1
-      - IN: sample-abc
+      - OUT: sample-abc
       - TASK:
         - script: echo "hello"
