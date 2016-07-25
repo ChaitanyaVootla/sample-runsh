@@ -6,5 +6,7 @@ jobs:
       - IN: triggertest1
       - IN: sample-abc
       - OUT: sample-script
+      - OUT: sample-xyz
+      - OUT: sample-abc
       - TASK:
         - script: echo "hello"
