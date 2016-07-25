@@ -12,3 +12,10 @@ resources:
     pointer:
       sourceName: ChaitanyaVootla/sample-script
       branch: master
+
+  - name: sample-xyz
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: ChaitanyaVootla/sample-script
+      branch: master
