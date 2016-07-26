@@ -12,3 +12,12 @@ resources:
     pointer:
       sourceName: ChaitanyaVootla/sample-script
       branch: master
+      
+  - name: docker-image
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "chaitanyavootla/chaitanya"
+      isPull: false
+    initialVersion:
+      versionName: latest
