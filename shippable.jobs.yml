@@ -7,4 +7,4 @@ jobs:
       - OUT: sample-abc
       - OUT: docker-image
       - TASK:
-        - script: echo "hello"
+        - script: 
