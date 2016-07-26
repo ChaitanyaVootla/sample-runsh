@@ -5,5 +5,6 @@ jobs:
       - IN: sample-script
       - IN: triggertest1
       - OUT: sample-abc
+      - OUT: docker-image
       - TASK:
         - script: echo "hello"
