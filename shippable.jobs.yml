@@ -9,7 +9,7 @@ jobs:
       - TASK:
         - script: 
   - name: script-somerandomcrap
-    type: runSh
+    type: ci
     steps:
       - IN: sample-script
       - OUT: sample-abc
