@@ -9,7 +9,7 @@ jobs:
       - TASK:
         - script: 
   - name: script-somerandomcrap
-    type: ci
+    type: manifest
     steps:
       - IN: sample-script
       - OUT: sample-abc
