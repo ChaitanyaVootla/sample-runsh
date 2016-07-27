@@ -8,3 +8,11 @@ jobs:
       - OUT: docker-image
       - TASK:
         - script: 
+  - name: script-somerandomcrap
+    type: runSh
+    steps:
+      - IN: sample-script
+      - OUT: sample-abc
+      - OUT: docker-image
+      - TASK:
+        - script: 
