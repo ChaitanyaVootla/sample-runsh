@@ -6,4 +6,4 @@ jobs:
       - IN: triggertest1
       - OUT: docker-image
       - TASK:
-        - script: echo 'blaah'
+        - script: echo 'blaah 2'
