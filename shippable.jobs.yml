@@ -4,15 +4,6 @@ jobs:
     steps:
       - IN: sample-script
       - IN: triggertest1
-      - OUT: sample-abc
       - OUT: docker-image
       - TASK:
-        - script: 
-  - name: script-somerandomcrap
-    type: manifest
-    steps:
-      - IN: sample-script
-      - OUT: sample-abc
-      - OUT: docker-image
-      - TASK:
-        - script: 
+        - script: echo 'blaah'
