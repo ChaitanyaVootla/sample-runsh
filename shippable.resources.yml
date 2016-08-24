@@ -5,13 +5,6 @@ resources:
     pointer:
       sourceName: ChaitanyaVootla/sample-script
       branch: master
-
-  - name: sample-abc
-    type: gitRepo
-    integration: github
-    pointer:
-      sourceName: ChaitanyaVootla/sample-script
-      branch: master
       
   - name: docker-image
     type: image
